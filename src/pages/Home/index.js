@@ -20,7 +20,7 @@ import {
                     <ul>
                         <div className="columns">
                           {propertyListings.map(listing => (
-                            <Listing listing={listing} key={listing.address} />
+                            <Listing listing={listing} key={listing.details_url} />
                           ))}
                         </div>
                     </ul>
