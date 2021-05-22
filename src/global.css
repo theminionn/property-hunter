@@ -1,0 +1,28 @@
+.container {
+    max-width: 1200px;
+  }
+  
+.text-small {
+  font-size: small;
+}
+
+.hero {
+  background-image: url('images/hero.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+@media screen and (min-width: 992px) {
+  .miniHero {
+    background-position-y: -150px;
+  }
+}
+
+.list {
+  text-align: left;
+}
+
+.card {
+  height: 100%;
+}

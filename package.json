@@ -1,0 +1,34 @@
+{
+  "name": "premium-property-finder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reach/router": "^1.3.4",
+    "classnames": "^2.3.1",
+    "parcel": "^2.0.0-nightly.389",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "spectre.css": "^0.5.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "postcss-modules": "^4.0.0",
+    "sass": "^1.34.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  },
+  "description": "",
+  "staticPath": "public"
+}
